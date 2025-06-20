@@ -1,4 +1,4 @@
-# trabalho-html-uninter 💾
+# trabalho-frontend-uninter 💾
 O que é o projeto?
 Respositório dedicado a disponibilização do código fonte do meu trabalho acadêmico
 
