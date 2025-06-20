@@ -9,4 +9,4 @@ Praticar as habilidades e conhecimentos adquiridos durante a disciplina de Funda
 Meu projeto acadêmico contem HTML5, CSS3, e JavaScript bem básicos
 
 # Como acessar ? 🪐
-Pode ser acessado a partir de Browsers
+[Acesse aqui](https://uuhjuao.github.io/trabalho-html-uninter/)
