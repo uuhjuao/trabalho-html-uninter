@@ -1,0 +1,110 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 45px;
+    color: azul;
+    text-align: center;
+}
+
+.perfil {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+/*EFEITO HOVER = Faz o efeito de zoom
+HOVER = Aplica efeitos quando o mouse passa por cima */
+.perfil:hover {
+    transform: scale(1.1);
+
+/*TRANSITION = suaviza o efeito do zoom*/
+    transition: 1s ease;
+}
+
+.p1 {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 150px 0 150px;
+}
+
+.p2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 150px 0 150px;
+}
+
+
+/*ESTILIZANDO AS LISTAS NÃO ORDENADAS*/
+
+h2 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.atividade {
+    width: 200px;
+    text-align: center;
+}
+
+.atividade img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+.imagemlista {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+h3 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tabela {
+    width: 70%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+
+}
+
+td{
+    border-bottom: 1px solid black;
+}
+
+table tfoot td {
+    background-color: cornflowerblue;
+}
+
+table thead th {
+    background-color: cornflowerblue;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+.igreja{
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+}
