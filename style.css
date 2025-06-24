@@ -1,7 +1,8 @@
+/*FUNDO DA PÁGINA COM COR SUAVE*/
 body {
     background-color: beige;
 }
-
+/*TÍTULO COM COR E ESTILIZADO*/
 h1 {
     font-size: 45px;
     color: azul;
@@ -24,7 +25,7 @@ HOVER = Aplica efeitos quando o mouse passa por cima */
 /*TRANSITION = suaviza o efeito do zoom*/
     transition: 1s ease;
 }
-
+/*PARÁGRAFO COM FONTE MAIOR E JUSTIFICADO*/
 .p1 {
     font-size: 20px;
     text-align: justify;
@@ -34,12 +35,11 @@ HOVER = Aplica efeitos quando o mouse passa por cima */
 .p2 {
     font-size: 20px;
     text-align: center;
-    margin: 0 150px 0 150px;
+    margin: 35px 150px 0 150px;
 }
 
 
-/*ESTILIZANDO AS LISTAS NÃO ORDENADAS*/
-
+/*ESTILIZAÇÃO DAS LISTAS NÃO ORDENADAS*/
 h2 {
     margin-top: 70px;
     text-align: center;
@@ -77,7 +77,7 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
-
+/*TABELA ESTILIZADA*/
 .tabela {
     width: 70%;
     border-collapse: collapse;
@@ -98,8 +98,8 @@ table tfoot td {
 table thead th {
     background-color: cornflowerblue;
 }
-
-a:hover {
+/*LINK QUE MUDA DE COR*/
+.meulink:hover {
     color: chartreuse;
 }
 

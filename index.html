@@ -4,15 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabalho Uninter</title>
+    <meta name="description"
+        content="Minha página pessoal, estudante de Engenharia de Software, apaixonado por tecnologia e marketing digital.">
+    <title>Trabalho Uninter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+   
+    <!--TÍTULO PRINCIPAL-->
     <h1>João Vitor Lima Marçião</h1>
     <img class="perfil" src="Images/fotodeperfil.jpg" alt="Foto de Perfil do usuário">
     <br>
 
+    <!--PARÁGRAFO-->
     <p class="p1">Oi! Me chamo João, sou da cidade de Manaus(AM), tenho 23 anos e recentemente iniciei minha graduação
         em Engenharia de Software na Uninter. Estou entusiasmado para adquirir habilidades em desenvolvimento de
         software e aprofundar meus conhecimentos no universo da Tecnologia da Informação.
@@ -20,91 +25,84 @@
         Além disso, sou apaixonado por marketing digital, o que me levou a atuar como Gestor de Tráfego. Algo que me
         desperta grande curiosidade é entender como posso integrar essa experiência com minha formação em TI, explorando
         sinergias entre programação, automação e estratégias de marketing digital.</p>
-        <br>
+    <br>
+    
+    <!--BOTÃO COM FUNÇÃO JS-->
+    <button id="botaoMensagem">Clique para ver uma mensagem!</button>
+    <p id="js"></p>
 
-        <button onclick='
-          document.getElementById("js").innerHTML=
-          "Para ser melhor do que 99% das pessoas, você tem que fazer o que 99% das pessoas não fazem!";
-
-             setTimeout(function() {
-                document.getElementById("js").innerHTML = "";
-             },7000);
-            '>Clique para ver uma mensagem!</button>
-
-        <p id="js"> </p>
-
-
-        <h2>Minhas Atividades Favoritas:</h2>
-        <div class="container">
-            <div class="atividade">
-                <ul>
-                    <li>Caslistenia</li>
-                </ul>
-                <img class="imagemlista" src="Images/calisthenics.jpg" alt="Calistenia">
-            </div>
-            <div class="atividade">
-                <ul>
-                    <li>Desfrutar a natureza</li>
-                </ul>
-                <img class="imagemlista" src="Images/natureza.jpg" alt="Natureza">
-            </div>
-            <div class="atividade">
-                <ul>
-                    <li>Estudar</li>
-                </ul>
-                <img class="imagemlista" src="Images/studying.jpg" alt="Estudos">
-            </div>
+    
+    <!--LISTA NÃO ORDENADA COM IMAGENS-->
+    <h2>Minhas Atividades Favoritas:</h2>
+    <div class="container">
+        <div class="atividade">
+            <ul>
+                <li>Calistenia</li>
+            </ul>
+            <img class="imagemlista" src="Images/calisthenics.jpg" alt="Calistenia">
         </div>
+        <div class="atividade">
+            <ul>
+                <li>Desfrutar a natureza</li>
+            </ul>
+            <img class="imagemlista" src="Images/natureza.jpg" alt="Natureza">
+        </div>
+        <div class="atividade">
+            <ul>
+                <li>Estudar</li>
+            </ul>
+            <img class="imagemlista" src="Images/studying.jpg" alt="Estudos">
+        </div>
+    </div>
 
-        <br>
-        <br>
-        <br>
-        <h3>Países que eu gostaria de visitar:</h3>
-        <table class="tabela" align="center">
-            <thead>
-                <tr>
-                    <th>Países</th>
-                    <th>Fotografias</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Dinamarca</td>
-                    <td><img src="Images/dinamarca.jpg" width="200" height="200" alt="País/Dinamarca"></td>
-                </tr>
-                <tr>
-                    <td>Japão</td>
-                    <td><img src="Images/japao.jpg" width="200" height="200" alt="País/Japão"></td>
-                </tr>
-                <tr>
-                    <td>Estados Unidos</td>
-                    <td><img src="Images/usa.jpg" width="200" height="200" alt="País/USA"></td>
-                    </th>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2" class="rodape">Imagens meramente ilustrativas</td>
-                </tr>
-            </tfoot>
-        </table>
+    
+    <!--TABELA ESTILIZADA COM OS PAÍSES E IMAGENS-->
+    <h3>Países que eu gostaria de visitar:</h3>
+    <table class="tabela">
+        <thead>
+            <tr>
+                <th>Países</th>
+                <th>Fotografias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dinamarca</td>
+                <td><img src="Images/dinamarca.jpg" width="200" height="200" alt="País/Dinamarca"></td>
+            </tr>
+            <tr>
+                <td>Japão</td>
+                <td><img src="Images/japao.jpg" width="200" height="200" alt="País/Japão"></td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td><img src="Images/usa.jpg" width="200" height="200" alt="País/USA"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="rodape">Imagens meramente ilustrativas</td>
+            </tr>
+        </tfoot>
+    </table>
 
-        <br>
-        <br>
-        <br>
+    
+    <p class="p2">Ainda não tive a oportunidade de viajar para o exterior, porém já tenho uma viagem marcada para
+        cidade de São Paulo(Bauru) para Igreja Tenrikyo Dendotyo com o intuito de aprender mais sobre a doutrina
+        dessa religião de
+        origem japonesa. Não é uma viagem internacional, ainda, mas será a primeira vez na vida que irei viajar para
+        um outra cidade sozinho e de avião,
+        então estou muito ansioso para desfrutar de todas essas novas experiências.
+        Se quiser conhecer mais sobre a Igreja Tenrikyo Dendotyo, confira o link a seguir para mais informações: <br>
 
-        <p class="p2">Ainda não tive a oportunidade de viajar para o exterior, porém já tenho uma viagem marcada para
-            cidade de São Paulo(Bauru) para Igreja Tenrikyo Dendotyo com o intuito de aprender mais sobre a doutrina
-            dessa religião de
-            origem japonesa. Não é uma viagem internacional, ainda, mas será a primeira vez na vida que irei viajar para
-            um outra cidade sozinho e de avião,
-            então estou muito ansioso para desfrutar de todas essas novas experiências.
-            Se quiser conhecer mais sobre a Igreja Tenrikyo Dendotyo, confira o link a seguir para mais informações:br
-            <br>
+        <img class="igreja" src="Images/igrejatenrikyodendotyo.jpg" alt="Logo/Tenrikyo"><br>
 
-            <img class="igreja" src="Images/igrejatenrikyodendotyo.jpg" alt="Logo/Tenrikyo"><br>
-            <a href="https://www.tenrikyo.org.br/dendotyo" target="_blank">Dendotyo do Brasil </a>
-        </p>
+        <!--LINK DO MEU INTERESE-->
+        <a class="meulink" href="https://www.tenrikyo.org.br/dendotyo" target="_blank">Dendotyo do Brasil</a>
+    </p>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
